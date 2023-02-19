@@ -3,6 +3,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
     title: "30 分钟 Lisp 入门教程",
     lang: "zh-CN",
+    base: "/lisp-tutorial/",
     themeConfig: {
         sidebar: [
             {
@@ -39,5 +40,4 @@ export default defineConfig({
             // },
         ]
     }
-
 });
