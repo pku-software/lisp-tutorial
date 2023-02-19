@@ -1,0 +1,20 @@
+{
+    "name": "lisp_tutorial",
+    "version": "0.1.0",
+    "scripts": {
+        "start": "vitepress dev docs",
+        "build": "vitepress build docs",
+        "preview": "vitepress preview docs"
+    },
+    "devDependencies": {
+        "vitepress": "1.0.0-alpha.46",
+        "vue": "^3.2.47"
+    },
+    "pnpm": {
+        "peerDependencyRules": {
+            "ignoreMissing": [
+                "@algolia/client-search"
+            ]
+        }
+    }
+}
