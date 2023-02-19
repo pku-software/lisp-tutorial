@@ -10,6 +10,7 @@
         "vitepress": "1.0.0-alpha.46",
         "vue": "^3.2.47"
     },
+    "packageManager": "pnpm@7.27.1",
     "pnpm": {
         "peerDependencyRules": {
             "ignoreMissing": [
