@@ -28,7 +28,7 @@ Lisp 是一门函数式编程语言。函数式编程中的一个关键操作就
 ```scheme
 ; 下面两行是等价的
 (define (double x) (* x 2))
-(define x (lambda (x) (* x 2)))
+(define double (lambda (x) (* x 2)))
 ```
 
 此外，`lambda` 特殊形式可以用来定义“局部变量”。看下面的例子：
